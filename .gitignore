@@ -1,7 +1,0 @@
-# ignore everything except main project files
-*
-
-# allow folders/files you want
-!index.html
-!style.css
-!images/
