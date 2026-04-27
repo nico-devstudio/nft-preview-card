@@ -19,7 +19,7 @@
  .main {
     margin-top: 50px;
     background-color: hsl(216, 50%, 16%);
-      color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     font-family: "Outfit", sans-serif;
     font-style: normal;
     border-radius: 10px;
@@ -31,9 +31,9 @@
  }
 
  .equilibrium {
-    max-width: 250px;
+    width: 100%;
+    display: block;
     border-radius: 10px;
-    transition: 0.3s ease;
  }
 
  h3 {
@@ -54,7 +54,7 @@
     margin: 10px 0;
     /* width: 100%; */
     align-items: center;
-     }
+ }
 
  .zerofourone {
     color: hsl(178, 100%, 50%);
@@ -119,9 +119,7 @@
 
  .image-container {
     position: relative;
-    width: fit-content;
-    cursor: pointer;
-
+    width: 250px;
  }
 
  .overlay {
@@ -137,10 +135,8 @@
     opacity: 0;
     transition: 0.3s ease;
     border-radius: 10px;
-     }
+ }
 
  .image-container:hover .overlay {
     opacity: 1;
  }
-
- 
