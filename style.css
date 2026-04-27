@@ -28,13 +28,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 20px;
+    padding: 20px;
  }
 
  .equilibrium {
     max-width: 250px;
-    padding: 20px 20px 20px 0;
-    border-radius: 30px;
+    /* padding: 20px 20px 20px 20px; */
+    border-radius: 10px;
     transition: 0.3s ease;
  }
 
@@ -56,13 +56,16 @@
     display: flex;
     justify-content: space-between;
     margin: 10px 0;
- }
+    /* width: 100%; */
+    align-items: center;
+     }
 
  .zerofourone {
     color: hsl(178, 100%, 50%);
     display: flex;
     gap: 10px;
-    font-weight: 500
+    font-weight: 500;
+    /* width: 100%; */
  }
 
  .texts {
@@ -80,7 +83,6 @@
     align-items: center;
     gap: 10px;
     width: 100%;
-    padding-bottom: 20px;
     padding-top: 10px;
     font-size: 13px;
  }
@@ -112,6 +114,7 @@
     margin-bottom: 20px;
     padding-left: 0;
     cursor: pointer;
+    margin-top: 20px;
  }
 
  .equitext:hover {
@@ -129,8 +132,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 92.3%;
-    height: 85%;
+    width: 100%;
+    height: 100%;
     background-color: rgba(0, 255, 247, 0.4);
     display: flex;
     justify-content: center;
@@ -138,8 +141,9 @@
     opacity: 0;
     transition: 0.3s ease;
     border-radius: 10px;
-    margin-top: 20px;
-    padding-top: 0;
+    /* margin-top: 20px;
+    padding-top: 0; */
+    inset: 0;
 
  }
 
@@ -150,3 +154,4 @@
  .image-container:hover .equilibrium {
     opacity: 0.6;
  }
+ 
