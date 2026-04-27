@@ -1,38 +1,80 @@
  .attribution {
-     font-size: 0.6875rem;
-     text-align: center;
+    font-size: 0.6875rem;
+    text-align: center;
  }
 
  .attribution a {
-     color: hsl(228, 45%, 44%);
+    color: hsl(228, 45%, 44%);
  }
 
  body {
-     display: grid;
-     min-height: 100vh;
-     justify-content: center;
-     align-items: center;
-     background-color: hsl(217, 54%, 11%);
-     gap: 70px;
+    display: grid;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    gap: 70px;
  }
 
  .main {
     margin-top: 50px;
-     background-color: hsl(216, 50%, 16%);
-     place-items: center;
-     color: rgb(255, 255, 255);
-     font-family: "Outfit", sans-serif;
-         font-style: normal;
-     border-radius: 10px;
-     overflow: hidden;
+    background-color: hsl(216, 50%, 16%);
+    /* place-items: center; */
+    color: rgb(255, 255, 255);
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
  }
 
  .equilibrium {
-     max-width: 250px;
-     padding: 20px 20px;
-     border-radius: 30px;
+    max-width: 250px;
+    padding: 20px 20px 20px 0;
+    border-radius: 30px;
+    
+ }
+
+ h3 {
+    margin: 0px;
+    /* padding: 0px; */
  }
 
  .transparent {
     color: rgb(255, 255, 255, 0.5)
+ }
+
+ footer {
+    color: white;
+ }
+
+ .eth {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+ }
+
+ .zerofourone {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    gap: 10px;
+    font-weight: 500
+ }
+
+ .texts {
+    font-size: 15px;
+ }
+
+ .avatar {
+    width: 20px;
+ }
+
+ .creation {
+     display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
  }
