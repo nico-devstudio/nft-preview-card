@@ -35,15 +35,16 @@
     max-width: 250px;
     padding: 20px 20px 20px 0;
     border-radius: 30px;
-    
+    transition: 0.3s ease;
  }
 
  h3 {
     margin: 0px;
-    /* padding: 0px; */
+
  }
 
  .transparent {
+
     color: rgb(255, 255, 255, 0.5)
  }
 
@@ -69,12 +70,83 @@
  }
 
  .avatar {
-    width: 20px;
+    width: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
  }
 
  .creation {
-     display: flex;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 13px;
+ }
+
+ hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+ }
+
+ .jules {
+    background: none;
+    border: none;
+    color: rgb(255, 255, 255, 0.5);
+    padding: 0px;
+    cursor: pointer;
+ }
+
+ .jules:hover {
+    color: hsl(178, 100%, 50%);
+ }
+
+ .equitext {
+    border: none;
+    background: none;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-left: 0;
+    cursor: pointer;
+ }
+
+ .equitext:hover {
+    color: hsl(178, 100%, 50%);
+ }
+
+ .image-container {
+    position: relative;
+    width: fit-content;
+    cursor: pointer;
+
+ }
+
+ .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 92.3%;
+    height: 85%;
+    background-color: rgba(0, 255, 247, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 0;
+
+ }
+
+ .image-container:hover .overlay {
+    opacity: 1;
+ }
+
+ .image-container:hover .equilibrium {
+    opacity: 0.6;
  }
