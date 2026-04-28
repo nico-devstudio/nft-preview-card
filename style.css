@@ -49,11 +49,11 @@
  }
 
  .eth {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0;
-    /* width: 100%; */
-    align-items: center;
+     display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin: 20px 0;
  }
 
  .zerofourone {
@@ -61,11 +61,11 @@
     display: flex;
     gap: 10px;
     font-weight: 500;
-    /* width: 100%; */
  }
 
  .texts {
     font-size: 15px;
+    width: 100%;
  }
 
  .avatar {
