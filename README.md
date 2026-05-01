@@ -5,11 +5,14 @@ This is a solution to the NFT Preview Card Component challenge from Frontend Men
 The project focuses on building a responsive and interactive card UI using HTML and CSS.
 
 📸 Screenshot
+![NFT Preview Card Desktop View](./images/Screenshot-desktop-view.png)
 
+![NFT Preview Card Mobile View](./images/Screenshot-mobile-view.png)
+
+![NFT Preview Card Active State](./images/Active-state.png)
 
 🚀 Live Demo
-Live Site URL: (add your deployed link here)
-Solution Page: (optional Frontend Mentor link)
+[NFT Live](https://nico-devstudio.github.io/nft-preview-card/)
 
 🛠️ Built With
 Semantic HTML5
